@@ -10,7 +10,7 @@ Response	| Method	| Path	| Description
 CityResponse	| GET	| /api/location	| Returns CityResponse based in the IP from the request
 CityResponse	| GET	| /api/location/{ipAddress}	| Returns CityResponse based in the given IP
 
-Web UI -
+Web UI
 --------------
 ![Web UI][1]
 
