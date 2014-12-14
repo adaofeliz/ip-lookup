@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 
 @RestController
-@RequestMapping("/api/*")
+@RequestMapping("/api")
 public class ServiceController {
 
     @Autowired
