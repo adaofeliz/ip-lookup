@@ -2,6 +2,10 @@ IP Lookup  - [![Build Status](https://travis-ci.org/adaofeliz/ip-lookup.png)](ht
 ==================
 Spring Boot Web Application for ip address lookup using MaxMind GeoIP2 and GMaps.js for UI
 
+DEMO
+--------------
+Website: [iplookup.adaofeliz.com]
+
 Service API
 --------------
 
@@ -34,3 +38,5 @@ Try it
 - Now open your browser: http://localhost:8080/
 
 [1]: ./.screenshots/screenshot_ui.png
+
+[iplookup.adaofeliz.com]: http://iplookup.adaofeliz.com:8080
