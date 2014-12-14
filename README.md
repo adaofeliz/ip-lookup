@@ -10,7 +10,7 @@ Response	| Method	| Path	| Description
 CityResponse	| GET	| /api/location	| Returns CityResponse based in the IP from the request
 CityResponse	| GET	| /api/location/{ipAddress}	| Returns CityResponse based in the given IP
 
-Web UI - Gmaps.js (https://hpneo.github.io/gmaps/)
+Web UI -
 --------------
 ![Web UI][1]
 
@@ -33,4 +33,4 @@ Try it
 --------------
 - Now open your browser: http://localhost:8080/
 
-[1]: ./.screenshots/screenshot1.png
+[1]: ./.screenshots/screenshot_ui.png
