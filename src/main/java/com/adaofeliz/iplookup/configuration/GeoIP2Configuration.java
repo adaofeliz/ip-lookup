@@ -1,5 +1,6 @@
 package com.adaofeliz.iplookup.configuration;
 
+import com.maxmind.db.Reader;
 import com.maxmind.geoip2.DatabaseReader;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,8 +25,8 @@ public class GeoIP2Configuration {
         File database = new ClassPathResource(GEO_LITE_DATABASE_LOCATION).getFile();
 
         // This creates the DatabaseReader object, which should be reused across
-        // lookups.
-        return new DatabaseReader.Builder(database).build();
+        // lookups. The database is loaded into memory when the reader is constructed.
+        return new DatabaseReader.Builder(database).fileMode(Reader.FileMode.MEMORY).build();
     }
 
 }
