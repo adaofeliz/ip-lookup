@@ -16,11 +16,13 @@ public class ServiceControllerAdvice {
 
     @ExceptionHandler(AddressNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    public void addressNotFoundExceptionExceptionHandler() { }
+    public void addressNotFoundExceptionExceptionHandler() {
+    }
 
 
     @ExceptionHandler(GeoIp2Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public void geoIp2ExceptionExceptionHandler() { }
+    public void geoIp2ExceptionExceptionHandler() {
+    }
 
 }
