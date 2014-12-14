@@ -28,3 +28,5 @@ java -jar target/ip-lookup.war
 Try it
 --------------
 - Now open your browser: http://localhost:8080/
+
+[1]: ./.screenshots/screenshot1.png
