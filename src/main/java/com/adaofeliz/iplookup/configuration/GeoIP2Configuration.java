@@ -8,6 +8,7 @@ import org.springframework.core.io.ClassPathResource;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Created on 14/12/14.
@@ -22,11 +23,11 @@ public class GeoIP2Configuration {
     public DatabaseReader getDatabaseReader() throws IOException {
 
         // A File object pointing to your GeoIP2 or GeoLite2 database
-        File database = new ClassPathResource(GEO_LITE_DATABASE_LOCATION).getFile();
+        InputStream databaseInputStream = new ClassPathResource(GEO_LITE_DATABASE_LOCATION).getInputStream();
 
         // This creates the DatabaseReader object, which should be reused across
         // lookups. The database is loaded into memory when the reader is constructed.
-        return new DatabaseReader.Builder(database).fileMode(Reader.FileMode.MEMORY).build();
+        return new DatabaseReader.Builder(databaseInputStream).fileMode(Reader.FileMode.MEMORY).build();
     }
 
 }
