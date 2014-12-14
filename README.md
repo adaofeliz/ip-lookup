@@ -10,6 +10,10 @@ Response	| Method	| Path	| Description
 CityResponse	| GET	| /api/location	| Returns CityResponse based in the IP from the request
 CityResponse	| GET	| /api/location/{ipAddress}	| Returns CityResponse based in the given IP
 
+Web UI - Gmaps.js (https://hpneo.github.io/gmaps/)
+--------------
+![Web UI][1]
+
 
 Installation
 --------------
