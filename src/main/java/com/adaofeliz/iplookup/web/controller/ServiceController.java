@@ -1,6 +1,6 @@
 package com.adaofeliz.iplookup.web.controller;
 
-import com.adaofeliz.iplookup.web.service.IpLocationService;
+import com.adaofeliz.iplookup.service.IpLocationService;
 import com.maxmind.geoip2.exception.GeoIp2Exception;
 import com.maxmind.geoip2.model.CityResponse;
 import org.springframework.beans.factory.annotation.Autowired;

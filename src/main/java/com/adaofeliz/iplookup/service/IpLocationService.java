@@ -1,4 +1,4 @@
-package com.adaofeliz.iplookup.web.service;
+package com.adaofeliz.iplookup.service;
 
 import com.maxmind.geoip2.DatabaseReader;
 import com.maxmind.geoip2.exception.GeoIp2Exception;
