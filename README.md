@@ -37,6 +37,6 @@ Try it
 --------------
 - Now open your browser: http://localhost:8080/
 
-[1]: ./.screenshots/screenshot_ui.png
+[1]: ./.screenshots/web_ui.png
 
 [iplookup.adaofeliz.com]: http://iplookup.adaofeliz.com
