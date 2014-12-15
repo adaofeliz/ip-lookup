@@ -80,7 +80,7 @@
       <span class="input-group-btn">
         <button class="btn btn-default" id="search-button" type="button">Go!</button>
       </span>
-            <input id="search-input" type="text" placeholder="0.0.0.0" class="form-control">
+            <input id="search-input" type="text" placeholder="0.0.0.0 / www.google.com" class="form-control">
         </div>
     </div>
 </div>
@@ -115,7 +115,7 @@
 
             $('#output').addClass('hide');
 
-            $.getJSON("/api/location/" + $('#search-input').val(),
+            $.getJSON("/api/location/" + $('#search-input').val() + ".",
                     function (data) {
 
                         var data = JSON.stringify(data);
