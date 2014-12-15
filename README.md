@@ -39,4 +39,4 @@ Try it
 
 [1]: ./.screenshots/screenshot_ui.png
 
-[iplookup.adaofeliz.com]: http://iplookup.adaofeliz.com:8080
+[iplookup.adaofeliz.com]: http://iplookup.adaofeliz.com
