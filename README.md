@@ -2,10 +2,6 @@ IP Lookup  - [![Build Status](https://travis-ci.org/adaofeliz/ip-lookup.png)](ht
 ==================
 Spring Boot Web Application for ip address lookup using MaxMind GeoIP2 and GMaps.js for UI
 
-DEMO
---------------
-Website: [iplookup.adaofeliz.com]
-
 Service API
 --------------
 
